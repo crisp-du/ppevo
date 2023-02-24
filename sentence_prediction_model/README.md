@@ -1,3 +1,5 @@
+# Sentence Category Prediction
+
 We trained a XLNet classifier to predict the type of information conveyed in a privacy policy sentence. You can explore its predictions on the [Princeton-Leuven longitudinal corpus of privacy policies](https://privacypolicies.cs.princeton.edu/) at https://ppevo.cs.du.edu. The trained model can also be downloaded from the site. 
 
 Here is a sample script showing how to use the trained model.
