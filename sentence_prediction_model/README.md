@@ -11,7 +11,7 @@ import torch
 from fast_bert.prediction import BertClassificationPredictor
 import pandas as pd
 
-MODEL_PATH = "./model/output/model_out/"
+MODEL_PATH = Path("./model/output/model_out/")
 LABEL_PATH = Path('./model/labels/')
 sentencePredictor = BertClassificationPredictor(MODEL_PATH, LABEL_PATH, multi_label=True, model_type='xlnet')
 
