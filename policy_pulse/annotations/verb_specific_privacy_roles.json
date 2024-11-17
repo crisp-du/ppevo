@@ -1,0 +1,1401 @@
+{
+    "license": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "disconnect": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "invoke": {
+        "FPCU": {
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARG0": "FIRST_PARTY_ENTITY"
+        }
+    },
+    "disassociate": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "accommodate": {
+        "UAED": {
+            "ARG1": "USER_OPERATION"
+        }
+    },
+    "subcontract": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "SHARING_TERMS"
+        }
+    },
+    "aim": {
+        "UAED": {
+            "ARGM-PRD": "USER_OPERATION",
+            "ARG1": "DATA"
+        }
+    },
+    "prompt": {
+        "UCC": {
+            "ARG2": "OPT_OUT_MECHANISM",
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "consist": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "install": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "MECHANISM"
+        }
+    },
+    "deploy": {
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "SHARING_TERMS"
+        },
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "USER_TRIGGER"
+        }
+    },
+    "capture": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA"
+        }
+    },
+    "correlate": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "correspond": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM"
+        }
+    },
+    "configure": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "lease": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARGM-MNR": "USER_TRIGGER"
+        }
+    },
+    "instruct": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "SHARING_TERMS",
+            "ARGM-CAU": "USER_TRIGGER"
+        }
+    },
+    "clear": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "compare": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "destroy": {
+        "DR": {
+            "ARG1": "DATA",
+            "ARGM-ADV": "RETENTION_TERMS",
+            "ARGM-TMP": "TIME_PERIOD"
+        }
+    },
+    "supplement": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "abide": {
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "SHARING_TERMS"
+        }
+    },
+    "rely": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "obligate": {
+        "UCC": {
+            "ARGM-ADV": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "SHARING_TERMS"
+        },
+        "UAED": {
+            "ARG1": "FIRST_PARTY_ENTITY",
+            "ARG2": "USER_OPERATION"
+        }
+    },
+    "deny": {
+        "UAED": {
+            "ARG1": "USER_OPERATION"
+        }
+    },
+    "endeavor": {
+        "UAED": {
+            "ARG1": "USER_OPERATION"
+        }
+    },
+    "hire": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "tie": {
+        "FPCU": {
+            "ARGM-LOC": "USER_TRIGGER",
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARG3": "MECHANISM",
+            "ARG4": "PURPOSE"
+        }
+    },
+    "bind": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "SHARING_TERMS",
+            "ARG3": "SHARING_TERMS",
+            "ARGM-ADV": "SHARING_TERMS"
+        }
+    },
+    "pass": {
+        "TPSC": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARGM-TMP": "USER_TRIGGER"
+        }
+    },
+    "entitle": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "exchange": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "PURPOSE",
+            "ARG4": "PURPOSE"
+        }
+    },
+    "cooperate": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "preserve": {
+        "DR": {
+            "ARG1": "DATA",
+            "ARGM-PRP": "RETENTION_TERMS",
+            "ARGM-PNC": "RETENTION_TERMS",
+            "ARGM-TMP": "RETENTION_TERMS",
+            "ARGM-ADV": "RETENTION_TERMS"
+        }
+    },
+    "partner": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "revoke": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "deactivate": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARG1": "DATA"
+        }
+    },
+    "match": {
+        "FPCU": {
+            "ARM-TMP": "USER_TRIGGER",
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "look": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "retrieve": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "MECHANISM"
+        }
+    },
+    "compile": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "MECHANISM"
+        }
+    },
+    "contract": {
+        "TPSC": {
+            "ARG1": "PURPOSE",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "solicit": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "UCC": {
+            "ARG2": "OPT_IN_MECHANISM"
+        }
+    },
+    "merge": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "distribute": {
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "grant": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "embed": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "LOCATION"
+        }
+    },
+    "terminate": {
+        "UCC": {
+            "ARGM-TMP": "OPT_OUT_MECHANISM",
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARG1": "DATA"
+        }
+    },
+    "constitute": {
+        "FPCU": {
+            "ARG0": "DATA",
+            "ARG1": "DATA"
+        }
+    },
+    "cancel": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "adjust": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "affect": {
+        "UCC": {
+            "ARG0": "OPT_OUT_MECHANISM",
+            "ARG1": "CONSEQUENCE",
+            "ARGM-ADV": "OPT_OUT_MECHANISM"
+        }
+    },
+    "close": {
+        "UAED": {
+            "ARG1": "DATA",
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARGM-LOC": "USER_MECHANISM"
+        }
+    },
+    "refuse": {
+        "UCC": {
+            "ARGM-TMP": "OPT_OUT_MECHANISM",
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "handle": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "PURPOSE",
+            "ARGM-MNR": "SHARING_TERMS"
+        }
+    },
+    "function": {
+        "UCC": {
+            "ARG0": "CONSEQUENCE",
+            "ARGM-ADV": "OPT_OUT_MECHANISM"
+        }
+    },
+    "edit": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARGM-CAU": "USER_TRIGGER"
+        },
+        "UAED": {
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARG1": "DATA"
+        }
+    },
+    "supply": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARGM-MNR": "MECHANISM",
+            "ARG2": "FIRST_PARTY_ENTITY"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARGM-MNR": "MECHANISM",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "utilize": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "LOCATION",
+            "ARG2": "PURPOSE"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "forward": {
+        "TPSC": {
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARGM-TMP": "USER_TRIGGER",
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "put": {
+        "UCC": {
+            "ARGM-ADV": "OPT_OUT_MECHANISM",
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM"
+        }
+    },
+    "rent": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARGM-ADV": "SHARING_TERMS",
+            "ARG4": "SHARING_TERMS",
+            "ARGM-MNR": "SHARING_TERMS"
+        }
+    },
+    "employ": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "DATA"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "record": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA"
+        }
+    },
+    "decline": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM",
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "let": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-ADV": "USER_OPERATION",
+            "ARG1": "USER_MECHANISM"
+        }
+    },
+    "stop": {
+        "UCC": {
+            "ARG2": "OPT_OUT_MECHANISM",
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "report": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY",
+            "ARG3": "DATA",
+            "ARGM-MNR": "MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "DATA",
+            "ARGM-PRD": "DATA",
+            "ARGM-MNR": "SHARING_TERMS"
+        }
+    },
+    "unsubscribe": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "publish": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARGM-ADV": "SHARING_TERMS"
+        }
+    },
+    "save": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARGM-TMP": "USER_TRIGGER",
+            "ARG3": "PURPOSE"
+        }
+    },
+    "exercise": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARG1": "USER_OPERATION"
+        }
+    },
+    "release": {
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARGM-MNR": "SHARING_TERMS",
+            "ARGM-TMP": "USER_TRIGGER"
+        }
+    },
+    "engage": {
+        "TPSC": {
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "add": {
+        "FPCU": {
+            "ARG2": "LOCATION",
+            "ARG1": "DATA"
+        },
+        "UCC": {
+            "ARGM-ADV": "OPT_IN_MECHANISM",
+            "ARG2": "CONSEQUENCE"
+        }
+    },
+    "inform": {
+        "TPSC": {
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "DATA"
+        }
+    },
+    "treat": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "revise": {
+        "UAED": {
+            "ARG1": "DATA",
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARGM-ADV": "USER_TRIGGER"
+        }
+    },
+    "combine": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARG3": "DATA"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARG3": "DATA"
+        }
+    },
+    "email": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM",
+            "ARGM-LOC": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-ADV": "USER_OPERATION",
+            "ARGM-PRD": "USER_OPERATION",
+            "ARGM-PNC": "USER_OPERATION",
+            "ARG1": "USER_MECHANISM",
+            "ARG2": "USER_MECHANISM",
+            "ARGM-LOC": "USER_MECHANISM"
+        }
+    },
+    "correct": {
+        "UAED": {
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARGM-PRD": "USER_OPERATION",
+            "ARGM-PNC": "USER_OPERATION",
+            "ARG1": "DATA"
+        }
+    },
+    "aggregate": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA"
+        }
+    },
+    "tell": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY"
+        },
+        "UCC": {
+            "ARG0": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY",
+            "ARGM-MNR": "USER_MECHANISM"
+        }
+    },
+    "become": {
+        "FPCU": {
+            "ARGM-TMP": "USER_TRIGGER",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "SHARING_TERMS",
+            "ARGM-ADV": "SHARING_TERMS"
+        }
+    },
+    "go": {
+        "UCC": {
+            "ARG4": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-ADV": "USER_OPERATION",
+            "ARG2": "USER_MECHANISM",
+            "ARGM-PNC": "USER_OPERATION",
+            "ARGM-PRP": "USER_OPERATION",
+            "ARG4": "USER_MECHANISM"
+        }
+    },
+    "transmit": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY",
+            "ARGM-MNR": "MECHANISM",
+            "ARGM-ADV": "USER_TRIGGER"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARGM-TMP": "SHARING_TERMS"
+        }
+    },
+    "mean": {
+        "FPCU": {
+            "ARG0": "DATA",
+            "ARG1": "DATA",
+            "ARGM-TMP": "DATA"
+        },
+        "UCC": {
+            "ARG1": "CONSEQUENCE"
+        }
+    },
+    "find": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARGM-LOC": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-ADV": "USER_OPERATION",
+            "ARG1": "USER_MECHANISM",
+            "ARGM-LOC": "USER_MECHANISM"
+        }
+    },
+    "continue": {
+        "UCC": {
+            "ARG1": "CONSEQUENCE"
+        }
+    },
+    "disable": {
+        "UCC": {
+            "ARG1": "CONSEQUENCE"
+        }
+    },
+    "work": {
+        "UCC": {
+            "ARG0": "CONSEQUENCE",
+            "ARG1": "CONSEQUENCE",
+            "ARGM-MNR": "CONSEQUENCE",
+            "ARG4": "CONSEQUENCE"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "PURPOSE",
+            "ARG3": "THIRD_PARTY_ENTITY",
+            "ARG4": "SHARING_TERMS",
+            "ARG5": "PURPOSE"
+        }
+    },
+    "consent": {
+        "UCC": {
+            "ARGM-MNR": "OPT_IN_MECHANISM",
+            "ARGM-TMP": "OPT_IN_MECHANISM"
+        }
+    },
+    "retain": {
+        "DR": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARGM-TMP": "TIME_PERIOD",
+            "ARGM-MNR": "RETENTION_TERMS"
+        }
+    },
+    "modify": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM",
+            "ARG3": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARG1": "DATA",
+            "ARGM-ADV": "USER_TRIGGER"
+        }
+    },
+    "associate": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "authorize": {
+        "FPCU": {
+            "ARGM-TMP": "USER_TRIGGER",
+            "ARG2": "FIRST_PARTY_ENTITY",
+            "ARG3": "PURPOSE"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "PURPOSE",
+            "ARGM-MNR": "USER_TRIGGER"
+        }
+    },
+    "permit": {
+        "FPCU": {
+            "ARG2": "FIRST_PARTY_ENTITY"
+        },
+        "UCC": {
+            "ARG0": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG1": "SHARING_TERMS",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        },
+        "UAED": {
+            "ARG1": "USER_OPERATION"
+        }
+    },
+    "perform": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG2": "MECHANISM",
+            "ARGM-LOC": "DATA"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "PURPOSE",
+            "ARG2": "SHARING_TERMS",
+            "ARGM-MNR": "SHARING_TERMS"
+        }
+    },
+    "display": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "PURPOSE",
+            "ARG2": "PURPOSE"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "recognize": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA",
+            "ARG2": "PURPOSE"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "SHARING_TERMS"
+        }
+    },
+    "prevent": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM",
+            "ARG2": "CONSEQUENCE",
+            "ARG3": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "SHARING_TERMS"
+        }
+    },
+    "remove": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        },
+        "DR": {
+            "ARGM-TMP": "TIME_PERIOD",
+            "ARG1": "DATA",
+            "ARG2": "RETENTION_TERMS",
+            "ARGM-ADV": "RETENTION_TERMS"
+        },
+        "UAED": {
+            "ARG1": "DATA",
+            "ARG2": "LOCATION"
+        }
+    },
+    "write": {
+        "UAED": {
+            "ARGM-ADV": "USER_OPERATION",
+            "ARGM-LOC": "USER_MECHANISM",
+            "ARG1": "USER_MECHANISM",
+            "ARG2": "USER_MECHANISM"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM"
+        }
+    },
+    "keep": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARGM-CAU": "PURPOSE"
+        },
+        "DR": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARGM-LOC": "RETENTION_PROCESS",
+            "ARGM-TMP": "TIME_PERIOD",
+            "ARG2": "RETENTION_PROCESS"
+        }
+    },
+    "gather": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARGM-MNR": "MECHANISM",
+            "ARGM-ADV": "USER_TRIGGER"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARGM-MNR": "MECHANISM",
+            "ARGM-ADV": "USER_TRIGGER"
+        }
+    },
+    "manage": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM",
+            "ARGM-LOC": "OPT_OUT_MECHANISM"
+        }
+    },
+    "need": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "UAED": {
+            "ARG1": "USER_OPERATION"
+        }
+    },
+    "log": {
+        "FPCU": {
+            "ARG0": "MECHANISM",
+            "ARG1": "DATA",
+            "ARGM-LOC": "LOCATION",
+            "ARGM-MNR": "MECHANISM",
+            "ARGM-TMP": "USER_TRIGGER"
+        },
+        "UAED": {
+            "ARG1": "USER_MECHANISM"
+        }
+    },
+    "obtain": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "LOCATION",
+            "ARGM-TMP": "USER_TRIGGER"
+        },
+        "UCC": {
+            "ARG1": "OPT_IN_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "LOCATION",
+            "ARGM-TMP": "USER_TRIGGER"
+        },
+        "UAED": {
+            "ARG1": "USER_OPERATION",
+            "ARGM-MNR": "USER_MECHANISM"
+        }
+    },
+    "place": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "LOCATION",
+            "ARGM-TMP": "USER_TRIGGER",
+            "ARGM-MNR": "MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "LOCATION",
+            "ARGM-TMP": "USER_TRIGGER",
+            "ARGM-MNR": "MECHANISM"
+        }
+    },
+    "enable": {
+        "FPCU": {
+            "ARG1": "PURPOSE",
+            "ARG2": "FIRST_PARTY_ENTITY"
+        },
+        "TPSC": {
+            "ARG1": "PURPOSE",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "link": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARGM-TMP": "USER_TRIGGER"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARGM-TMP": "USER_TRIGGER"
+        }
+    },
+    "give": {
+        "FPCU": {
+            "ARGM-TMP": "USER_TRIGGER",
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "sell": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "SHARING_TERMS",
+            "ARGM-ADV": "USER_TRIGGER"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "SHARING_TERMS",
+            "ARGM-ADV": "USER_TRIGGER"
+        }
+    },
+    "transfer": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "LOCATION",
+            "ARGM-ADV": "SHARING_TERMS",
+            "ARGM-TMP": "SHARING_TERMS",
+            "ARGM-LOC": "SHARING_TERMS"
+        },
+        "TPSC": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "LOCATION",
+            "ARGM-ADV": "SHARING_TERMS",
+            "ARGM-TMP": "SHARING_TERMS",
+            "ARGM-LOC": "SHARING_TERMS"
+        }
+    },
+    "set": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "LOCATION"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "MECHANISM",
+            "ARG2": "LOCATION"
+        }
+    },
+    "serve": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "PURPOSE"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "PURPOSE"
+        }
+    },
+    "track": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY",
+            "ARG3": "MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARG3": "MECHANISM"
+        }
+    },
+    "delete": {
+        "UCC": {
+            "ARG2": "OPT_OUT_MECHANISM",
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        },
+        "DR": {
+            "ARGM-ADV": "DATA",
+            "ARG1": "DATA",
+            "ARG2": "RETENTION_PROCESS",
+            "ARGM-TMP": "TIME_PERIOD"
+        },
+        "UAED": {
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARG1": "DATA",
+            "ARG2": "LOCATION",
+            "ARGM-MNR": "USER_MECHANISM"
+        }
+    },
+    "update": {
+        "UAED": {
+            "ARGM-MNR": "USER_MECHANISM",
+            "ARG1": "DATA"
+        }
+    },
+    "change": {
+        "UAED": {
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARG1": "DATA",
+            "ARG2": "DATA",
+            "ARG3": "DATA",
+            "ARGM-MNR": "USER_MECHANISM"
+        },
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM",
+            "ARG3": "OPT_OUT_MECHANISM",
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "follow": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM",
+            "ARG2": "OPT_OUT_MECHANISM"
+        }
+    },
+    "store": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "MECHANISM",
+            "ARGM-LOC": "LOCATION",
+            "ARGM-MNR": "MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "MECHANISM",
+            "ARGM-LOC": "LOCATION",
+            "ARGM-MNR": "MECHANISM"
+        },
+        "DR": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "MECHANISM",
+            "ARGM-LOC": "LOCATION",
+            "ARGM-TMP": "TIME_PERIOD"
+        }
+    },
+    "click": {
+        "UCC": {
+            "ARGM-LOC": "OPT_OUT_MECHANISM",
+            "ARG1": "OPT_OUT_MECHANISM"
+        },
+        "UAED": {
+            "ARGM-ADV": "USER_OPERATION",
+            "ARG1": "USER_MECHANISM",
+            "ARGM-LOC": "USER_MECHANISM"
+        }
+    },
+    "opt": {
+        "UCC": {
+            "ARGM-MNR": "OPT_OUT_MECHANISM"
+        }
+    },
+    "request": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "UCC": {},
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA"
+        },
+        "UAED": {
+            "ARG1": "USER_OPERATION",
+            "ARGM-MNR": "USER_MECHANISM"
+        }
+    },
+    "disclose": {
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY",
+            "ARGM-ADV": "SHARING_TERMS"
+        }
+    },
+    "receive": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "LOCATION",
+            "ARG3": "PURPOSE",
+            "ARG4": "DATA"
+        },
+        "UCC": {
+            "ARGM-ADV": "OPT_OUT_MECHANISM"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "LOCATION",
+            "ARG3": "SHARING_TERMS",
+            "ARG4": "DATA"
+        }
+    },
+    "share": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "include": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        },
+        "UAED": {
+            "ARG1": "DATA",
+            "ARG2": "USER_OPERATION"
+        }
+    },
+    "collect": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "LOCATION",
+            "ARG3": "PURPOSE"
+        },
+        "UCC": {
+            "ARG1": "DATA",
+            "ARG3": "DATA",
+            "ARGM-ADV": "OPT_IN_MECHANISM"
+        },
+        "TPSC": {
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "LOCATION",
+            "ARG3": "DATA",
+            "ARG4": "PURPOSE"
+        }
+    },
+    "provide": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARG2": "FIRST_PARTY_ENTITY"
+        },
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        },
+        "UAED": {
+            "ARG1": "USER_OPERATION"
+        }
+    },
+    "reuse": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "use": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "PURPOSE"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "process": {
+        "FPCU": {
+            "ARG0": "FIRST_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "PURPOSE"
+        },
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG1": "DATA",
+            "ARG2": "PURPOSE"
+        }
+    },
+    "comprise": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "fall": {
+        "FPCU": {
+            "ARG1": "DATA",
+            "ARG2": "DATA"
+        }
+    },
+    "disappear": {
+        "FPCU": {
+            "ARGM-TMP": "OPT_OUT_MECHANISM"
+        }
+    },
+    "refrain": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "persist": {
+        "UCC": {
+            "ARGM-ADV": "OPT_IN_MECHANISM"
+        },
+        "DR": {
+            "ARGM-TMP": "TIME_PERIOD",
+            "ARG1": "DATA"
+        }
+    },
+    "reset": {
+        "UCC": {
+            "ARG1": "OPT_OUT_MECHANISM"
+        }
+    },
+    "impact": {
+        "UCC": {
+            "ARGM-ADV": "OPT_OUT_MECHANISM",
+            "ARG0": "OPT_OUT_MECHANISM",
+            "ARG1": "CONSEQUENCE"
+        }
+    },
+    "lend": {
+        "TPSC": {
+            "ARG1": "DATA",
+            "ARG2": "THIRD_PARTY_ENTITY"
+        }
+    },
+    "conclude": {
+        "TPSC": {
+            "ARG0": "THIRD_PARTY_ENTITY",
+            "ARG3": "DATA"
+        }
+    },
+    "deal": {
+        "TPSC": {
+            "ARG1": "THIRD_PARTY_ENTITY",
+            "ARG2": "SHARING_TERMS",
+            "ARG3": "PURPOSE"
+        }
+    },
+    "strive": {
+        "UAED": {
+            "ARGM-ADV": "USER_TRIGGER",
+            "ARG1": "USER_OPERATION"
+        }
+    }
+}
