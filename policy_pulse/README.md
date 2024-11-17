@@ -31,9 +31,6 @@ This repository contains the following components:
 ### 4. **Scripts**
    - **PolicyPulse.py**: This script allows you to apply the PolicyPulse pipeline to a list of sentences provided via command-line arguments. The processed output is saved as a DataFrame.
 
-### 5. **Processed PPCrawl Latest Policies**
-   - **frame_classification_PPCrawl.zip**: Contains the latest privacy policies from each website in PPCrawl processed with PolicyPulse.
-
 ---
 
 ## How to Use
@@ -80,7 +77,6 @@ PolicyPulse/
 │
 ├── PolicyPulse_Pipeline_Example.ipynb  # Jupyter notebook demonstrating the pipeline
 ├── PolicyPulse.py                      # Python script to process privacy policy sentences
-├── frame_classification_PPCrawl.zip    # PPCrawl processed with PolicyPulse
 └── requirements.txt                    # Required dependencies
 ```
 
