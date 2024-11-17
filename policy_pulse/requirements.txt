@@ -1,0 +1,23 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+allennlp=2.10.1=pypi_0
+allennlp-models=2.10.1=pypi_0
+en-core-web-sm=3.5.0=pypi_0
+json5=0.9.22=pypi_0
+jsonpickle=3.0.4=pypi_0
+jsonpointer=2.4=pypi_0
+jsonschema=4.21.1=pypi_0
+jsonschema-specifications=2023.12.1=pypi_0
+keras-preprocessing=1.1.2=pypi_0
+nltk=3.8.1=pypi_0
+numpy=1.20.3=pypi_0
+python=3.9.16=h6244533_2
+regex=2023.3.23=pypi_0
+scikit-learn=1.2.2=pypi_0
+scipy=1.10.1=pypi_0
+tokenizers=0.19.1=pypi_0
+torch=2.0.1+cu117=pypi_0
+torchaudio=2.0.2+cu117=pypi_0
+torchvision=0.15.2+cu117=pypi_0
+transformers=4.40.2=pypi_0
